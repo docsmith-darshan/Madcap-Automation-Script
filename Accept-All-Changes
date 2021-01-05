@@ -1,0 +1,27 @@
+HotKeySet("{ESC}", "_Terminate")
+
+While 1
+
+Opt("WinTitleMatchMode", 2)
+WinActivate("MadCap Flare 2020")
+Send("{ALTDOWN}aaf{ALTUP}")
+Sleep(3000)
+WinActivate("MadCap Flare 2020")
+Send("{APPSKEY}{DOWN}{DOWN}{DOWN}{DOWN}{ENTER}")
+Sleep(4500)
+WinActivate("MadCap Flare 2020")
+Send("{ALTDOWN}{ALTUP}{ALTDOWN}ra{ALTUP}{ALTDOWN}c{ALTUP}")
+Sleep(3000)
+ControlClick("MadCap Flare 2020", "", "Button1")
+Sleep(3000)
+Send("{ALTDOWN}1{ALTUP}")
+Sleep(3000)
+Send("{CTRLDOWN}{F4}{CTRLUP}")
+
+
+Sleep(3000)
+
+WEnd
+Func _Terminate()
+   Exit 0
+   EndFunc
