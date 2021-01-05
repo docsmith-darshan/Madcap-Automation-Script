@@ -1,2 +1,2 @@
-# Madcap-Automation-Script
-I have created automation scripts using AutoIt to automate Madcap Flare Import task and Accept All Track Changes
+## Madcap-Automation-Script
+I have created UI automation scripts using AutoIt scripting language to automate Madcap Flare Tempplate Import task and Accept All Track Changes.
